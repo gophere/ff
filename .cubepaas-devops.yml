@@ -6,6 +6,9 @@ stages:
   steps:
   - runScriptConfig:
       image: link-cloud/python:latest
-      shellScript: ls ./
+      shellScript: |-
+        ls ./
+        ls
+        ls
 timeout: 60
 notification: {}
