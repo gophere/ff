@@ -1,0 +1,11 @@
+stages:
+- name: Clone
+  steps:
+  - sourceCodeConfig: {}
+- name: fff
+  steps:
+  - runScriptConfig:
+      image: link-cloud/python:latest
+      shellScript: ls
+timeout: 60
+notification: {}
