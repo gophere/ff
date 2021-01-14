@@ -9,5 +9,6 @@ stages:
       shellScript: |-
         ls
         ls
+        ls
 timeout: 60
 notification: {}
